@@ -220,12 +220,20 @@ h3 {
 
 .profile-page .name-photo div a {
   width: 100%;
+  overflow: hidden;
 }
 
 .profile-page .name-photo div a .btn-primary {
   width: 100%;
   font-weight: 700;
   border-radius: 6em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.profile-page .name-photo div a .btn-primary:hover {
+  opacity: 0.5;
 }
 
 .contact {
