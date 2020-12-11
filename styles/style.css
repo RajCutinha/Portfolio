@@ -390,6 +390,7 @@ nav .container .burger.clicked .line:last-child {
   color: #fff;
   font-weight: 500;
   margin-bottom: 2em;
+  line-height: 1.5;
 }
 
 .landing-page .landing-cta {
@@ -546,6 +547,28 @@ nav .container .burger.clicked .line:last-child {
   }
   .mobile-landing-img div {
     width: 30%;
+  }
+}
+
+@media (max-width: 450px) {
+  .landing-page .name-heading h1 {
+    font-size: 2.5rem;
+  }
+  .landing-page .name-heading h2 {
+    font-size: 1.2rem;
+  }
+  .landing-page .landing-intro p {
+    font-size: 1rem;
+  }
+  .landing-page .landing-cta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .landing-page .landing-cta .btn-primary {
+    margin-right: unset;
+    margin-bottom: 1.5em;
   }
 }
 
@@ -1592,7 +1615,7 @@ nav .container .burger.clicked .line:last-child {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   h1 {
     font-size: 2.5rem;
   }
