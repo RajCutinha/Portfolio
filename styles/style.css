@@ -149,8 +149,8 @@ nav .container ul {
       -ms-flex-direction: unset;
           flex-direction: unset;
   list-style: none;
-  -webkit-transition: all 1s linear;
-  transition: all 1s linear;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 nav .container ul li {
