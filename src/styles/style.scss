@@ -1,0 +1,25 @@
+@mixin flex($justify, $align, $direction) {
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+	flex-direction: $direction;
+}
+
+@mixin grid($columns, $row) {
+	display: grid;
+	grid-template-columns: $columns;
+	grid-template-rows: $row;
+}
+
+// $bg-main: #17181a;
+// $gradient-primary: linear-gradient(to right, #acb6e5, #86fde8);
+$bg-main: #141414;
+$gradient-primary: linear-gradient(to right, #c63d81, #9b2230, #c06a58);
+$white: #fff;
+$violet-primary: #6c63ff;
+$dark-secondary: #222;
+
+@import "global";
+@import "landing-page";
+@import "profile-page";
+@import "project-page";
