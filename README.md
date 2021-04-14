@@ -32,9 +32,9 @@ A simple static Portfolio Site
 
 <div>
 
-<img src="./src/img/Readme/html-5.svg">
+<img src="./src/img/Readme/html.png">
 &nbsp
-<img src="./src/img/Readme/css-3.svg">
+<img src="./src/img/Readme/css.png">
 &nbsp
-<img src="./src/img/Readme/javascript.svg">
+<img src="./src/img/Readme/javascript.png">
 </div>
